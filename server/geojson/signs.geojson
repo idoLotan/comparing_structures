@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
+      "type": "Feature_sign",
       "properties": {
         "sign_id": "S-001",
         "type": "Stop",
