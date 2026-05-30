@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "P-001",
+        "area_sqm": 1200,
+        "use": "Residential",
+        "owner": "A. Cohen",
+        "zone": "R1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [35.0185, 32.7905],
+          [35.0210, 32.7905],
+          [35.0210, 32.7930],
+          [35.0185, 32.7930],
+          [35.0185, 32.7905]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "P-002",
+        "area_sqm": 2500,
+        "use": "Commercial",
+        "owner": "B. Levi",
+        "zone": "C2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [35.0222, 32.7942],
+          [35.0265, 32.7942],
+          [35.0265, 32.7972],
+          [35.0222, 32.7972],
+          [35.0222, 32.7942]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "P-003",
+        "area_sqm": 800,
+        "use": "Public",
+        "owner": "Municipality",
+        "zone": "P1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [35.0155, 32.7945],
+          [35.0185, 32.7945],
+          [35.0185, 32.7965],
+          [35.0155, 32.7965],
+          [35.0155, 32.7945]
+        ]]
+      }
+    }
+  ]
+}

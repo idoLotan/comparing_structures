@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sign_id": "S-001",
+        "type": "Stop",
+        "condition": "Good",
+        "installed": "2020-03-15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.0217, 32.7940]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sign_id": "S-002",
+        "type": "Speed Limit",
+        "speed_kmh": 50,
+        "condition": "Fair",
+        "installed": "2019-07-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.0242, 32.7958]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sign_id": "S-003",
+        "type": "No Entry",
+        "condition": "Good",
+        "installed": "2021-11-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.0200, 32.7922]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sign_id": "S-004",
+        "type": "Yield",
+        "condition": "Poor",
+        "installed": "2018-02-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.0175, 32.7915]
+      }
+    }
+  ]
+}

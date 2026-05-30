@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Vite build output
+client/dist/
+client/.vite/
+
+# Tile data (binary, heavy — store separately)
+server/tiles/*/
+!server/tiles/*/.gitkeep
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

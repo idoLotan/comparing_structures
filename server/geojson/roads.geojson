@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Street",
+        "type": "primary",
+        "lanes": 2,
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.0150, 32.7900],
+          [35.0175, 32.7918],
+          [35.0200, 32.7930],
+          [35.0217, 32.7940],
+          [35.0245, 32.7958],
+          [35.0270, 32.7975]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Road",
+        "type": "secondary",
+        "lanes": 1,
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.0195, 32.7888],
+          [35.0210, 32.7915],
+          [35.0217, 32.7940],
+          [35.0222, 32.7965],
+          [35.0230, 32.7995]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Lane",
+        "type": "tertiary",
+        "lanes": 1,
+        "surface": "gravel"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [35.0217, 32.7940],
+          [35.0250, 32.7940],
+          [35.0280, 32.7935]
+        ]
+      }
+    }
+  ]
+}
